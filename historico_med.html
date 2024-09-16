@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico Médico</title>
+    <link rel="stylesheet" href="historico_med.css">
+</head>
+<body>
+    <section class="container">
+        <div>
+            <form id="editarFormulario">
+
+            <h2>Histórico Médico</h2>
+            
+            <label for="motivo">Motivo da Consulta:</label>
+            <textarea id="motivo" name="motivo" rows="4" cols="50" required></textarea><br><br>
+            
+            <label for="diagnostico">Diagnóstico Preliminar:</label>
+            <textarea id="diagnostico" name="diagnostico" rows="4" cols="50"></textarea><br><br>
+            
+            <label for="sintomas">Sintomas Apresentados:</label>
+            <textarea id="sintomas" name="sintomas" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Salvar Alteraçoes">
+        
+        </form>
+
+        </div>
+
+        <div class="click">
+
+            
+            <button><a href="pagina_visualizacao.html" id="verDados">Ver Dados enviados</a></button>
+
+        </div>
+    </section>
+    <script src="historico_med.js"></script>
+</body>
+</html>

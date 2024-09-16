@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedimento Realizados</title>
+    <link rel="stylesheet" href="procedimento_realizados.css">
+    
+    
+</head>
+<body>
+    <section class="container">
+        <div>
+            <h2>Procedimentos Realizados</h2>
+            <form id="editarFormulario">
+  
+            <label for="procedimento">Procedimento:</label>
+            <input type="text" id="procedimento" name="procedimento" required><br><br>
+            
+            <label for="descricao">Descrição do Procedimento:</label>
+            <textarea id="descricao" name="descricao" rows="4" cols="50" required></textarea><br><br>
+            
+            <label for="data_procedimento">Data do Procedimento:</label>
+            <input type="datetime-local" id="data_procedimento" name="data_procedimento" required><br><br>
+            <input type="submit" value="Salvar Alteraçoes">
+        
+        </form>
+        </div>
+        <div class="click">
+
+            
+            <button><a href="pagina_visualizacao.html" id="verDados">Ver Dados enviados</a></button> 
+
+        </div>
+    </section>
+
+    <script src="procedimento_realizados.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c50ab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Aumentei o tamanho para caber o conteúdo */
+    width: 100%;
+    overflow-y: auto; /* Para lidar com conteúdos maiores */
+    max-height: 90vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    padding: 6px;
+    margin: 10px 0; /* Ajusta o espaçamento entre as linhas */
+}
+
+button, .button-link {
+    background-color: #e2e1e1;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+/* Estilo para separar visualmente as divs */
+.dadosAluno {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px; /* Espaçamento entre as divs */
+    background-color: #f9f9f9;
+}
+
+.pdf {
+    background-color: #1661d1;
+    color: white;
+    margin-top: 10px;
+}

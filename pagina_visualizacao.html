@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualização dos Dados</title>
+    <link rel="stylesheet" href="pagina-visualizacao.css">
+</head>
+<body>
+    
+
+        <section class="container">
+            <h2>Dados do Paciente</h2>
+            <div id="dadosAluno">
+                <p><strong>Nome: </strong><span id="nome"></span></p>
+                <p><strong>Data de Nascimento: </strong><span id="data"></span></p>
+                <p><strong>idade: </strong><span id="idade"></span></p>
+                <p><strong>Sexo: </strong><span id="sexo"></span></p>
+                <p><strong>CPF: </strong><span id="cpf"></span></p>
+                <p><strong>telefone: </strong><span id="telefone"></span></p>
+                <p><strong>Endereço: </strong><span id="endereco"></span></p>
+            </div>
+           
+
+        
+
+        
+            <h2>Histórico Médico</h2>
+            <div id="dadosAluno">
+                <p><strong>Motivo da Consulta: </strong><span id="motivo"></span></p>
+                <p><strong>Diagnóstico Preliminar: </strong><span id="diagnostico"></span></p>
+                <p><strong>Sintomas Apresentados: </strong><span id="sintomas"></span></p>
+
+            </div>
+
+            
+            <div id="dadosAluno">
+                <h2>Procedimento Médicos</h2>
+                <p><strong>Procedimento: </strong><span id="procedimento"></span></p>
+                <p><strong>Descrição do Procedimento: </strong><span id="descricao"></span></p>
+                <p><strong>Data do Procedimento: </strong><span id="data_procedimento"></span></p>
+
+            </div>
+
+            <div id="dadosAluno">
+                <h2>Medicamentos</h2>
+                <p><strong>Medicamentos Prescritos: </strong><span id="medicamentos"></span></p>
+                <p><strong>Instruções Especiais: </strong><span id="instrucoes"></span></p>
+                
+
+            </div>
+
+            <div id="dadosAluno">
+                <h2>Observações Médicas</h2>
+                <p><strong>Outras Recomendações: </strong><span id="observacoes"></span></p>
+                
+                
+
+            </div>
+
+        
+        
+        <div class="button">
+             <button><a href="index.html">Voltar ao formulário</a></button>  
+             <button class="pdf" onclick="gerarPDF()">Gerar PDF</button>
+            </div>
+        
+        </section>
+   
+    <script src="pagina_visualizacao.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
+</body>
+</html>
