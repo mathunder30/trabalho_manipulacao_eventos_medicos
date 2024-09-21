@@ -23,6 +23,4 @@ document.getElementById('editarFormulario').addEventListener('submit', function(
 
     alert('Dados do Diagnosticos, Motivos e Sintomas atualizados com sucesso!')
 
-    
-
 } );

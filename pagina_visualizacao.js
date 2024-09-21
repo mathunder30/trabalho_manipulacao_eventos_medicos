@@ -117,5 +117,5 @@ function gerarPDF() {
     doc.text(`Observações: ${document.getElementById('observacoes').textContent}`, 20, yPosition);
 
     // Salva o PDF
-    doc.save('relatorio_aluno.pdf');
+    doc.save('prontuario_paciente.pdf');
 }

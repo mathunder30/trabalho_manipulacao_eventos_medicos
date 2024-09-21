@@ -66,3 +66,6 @@ a{text-decoration: none;}
 .opcao{
     text-align: center;
 }
+button#visualizar{
+    background-color: #27dd4f;
+}
